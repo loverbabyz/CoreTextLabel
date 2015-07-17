@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source_files   = '*.{h,m}'
   s.license        = 'MIT'
   s.ios.frameworks = 'QuartzCore', 'CoreText'
-  s.dependency 'RegexKitLite', '~>4.0'
+  s.dependency 'RegexKitLite-NoWarning', '~> 1.1.0'
   s.dependency 'AFMacros'
   s.dependency 'NSString-HTML'
 end
