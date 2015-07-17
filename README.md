@@ -29,7 +29,7 @@ $ vim Podfile
 
 ```ruby
 platform :ios, '5.0'
-pod 'CoreTextLabel', :head
+pod 'CoreTextLabel', :git => 'https://github.com/loverbabyz/CoreTextLabel.git'
 ```
 
 And then you [install the dependencies](https://github.com/CocoaPods/CocoaPods/wiki/Creating-a-project-that-uses-CocoaPods) in your project.
