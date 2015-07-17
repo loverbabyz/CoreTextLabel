@@ -26,7 +26,7 @@
 #import <QuartzCore/QuartzCore.h>
 #import <CoreText/CoreText.h>
 #import <AFMacros/AFMacros.h>
-#import <RegexKitLite/RegexKitLite.h>
+#import <RegexKitLite.h>
 #import <NSString-HTML/NSString+HTML.h>
 
 #define CORE_TEXT_SUPPORTED() ([[[UIDevice currentDevice] systemVersion] floatValue] >= 3.2)
